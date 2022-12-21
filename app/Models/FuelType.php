@@ -8,4 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class FuelType extends Model
 {
     use HasFactory;
+    protected $fillable=
+    [
+        'name',
+        'car_id',
+        'brand_id'
+    ];
 }

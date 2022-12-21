@@ -15,6 +15,7 @@ return new class extends Migration
     {
         Schema::create('mileages', function (Blueprint $table) {
             $table->id();
+            $table->integer("value");
             $table->timestamps();
         });
     }

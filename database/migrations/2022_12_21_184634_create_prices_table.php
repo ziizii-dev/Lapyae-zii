@@ -15,6 +15,9 @@ return new class extends Migration
     {
         Schema::create('prices', function (Blueprint $table) {
             $table->id();
+            $table->string('price');
+            $table->string('car_id');
+            $table->string('brand_id');
             $table->timestamps();
         });
     }

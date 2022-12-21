@@ -15,6 +15,9 @@ return new class extends Migration
     {
         Schema::create('equipment', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->string('car_id');
+            $table->string('brand_id');
             $table->timestamps();
         });
     }
