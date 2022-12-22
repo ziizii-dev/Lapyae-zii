@@ -21,6 +21,11 @@ return new class extends Migration
             $table->string('brand_id');
             $table->string('mileageFrom_id');
             $table->string('mileageTo_id');
+            $table->string('equipment_id');
+            $table->string('carModel_id');
+            $table->string('fuel_id');
+            $table->string('seller_id');
+            $table->string('color_id');
             $table->timestamps();
         });
     }

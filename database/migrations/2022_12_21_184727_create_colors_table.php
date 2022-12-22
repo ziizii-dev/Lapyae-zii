@@ -16,8 +16,8 @@ return new class extends Migration
         Schema::create('colors', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('car_id');
-            $table->string('brand_id');
+            $table->string('car_id')->nullable();
+            $table->string('brand_id')->nullable();
             $table->timestamps();
         });
     }

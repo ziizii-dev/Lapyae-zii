@@ -16,8 +16,8 @@ return new class extends Migration
         Schema::create('brands', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('car_id');
-            $table->string('price_id');
+            $table->string('car_id')->nullable();
+            $table->string('price_id')->nullable();
             $table->timestamps();
         });
     }

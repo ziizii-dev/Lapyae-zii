@@ -8,4 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Mileage extends Model
 {
     use HasFactory;
+    protected $fillable=[
+        'value'
+    ];
 }

@@ -15,6 +15,13 @@ class Car extends Model
         'country_id',
         'price_id',
         'mileageFrom_id',
-        'mileageTo_id'
+        'mileageTo_id',
+        'equipment_id',
+        'carModel_id',
+        'fuel_id',
+        'seller_id',
+        'color_id'
+
     ];
 }
+
